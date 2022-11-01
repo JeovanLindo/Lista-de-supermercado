@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/market.ico" type="image/x-icon">
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de supermercado</title>
+</head>
+<body>
+    <header>
+        <h1>SuperMercado App</h1>
+        <p>Digite o nome e o preço do produto</p>
+    </header>
+    <main>
+        <section id="inputs">
+            <div class="nome-preco" id="input-name">
+                <div id="nome-do-produto">
+                    <h1>Nome do produto</h1>
+                </div><!-- nome-do-produto -->
+                <input type="text" name="nome" id="nome">
+            </div><!-- input-name -->
+
+            <div class="nome-preco" id="input-preco">
+                <div id="valor">
+                    <h1>Valor</h1>
+                </div><!-- valor -->
+                <input type="number" name="preco" id="preco">
+            </div><!-- input-preco -->
+
+            <div id="input-send">
+                <input type="button" value="Enviar">
+            </div><!-- input-send -->
+        </section><!-- produtos -->
+
+        <section id="produtos" >
+
+            <!-- <div id="produto">
+                <h4>RedBull</h4>
+                <p>R$10,00</p>
+            </div><!-- produto --> 
+            
+        </section><!-- produtos -->
+
+        <section id="total" >
+            <div id="texto">
+                <h3>TOTAL : </h3>
+                <p>R$0</p>
+            </div>
+            <div id="limpar">
+                <input type="button" value="Limpar" id="lixeira">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

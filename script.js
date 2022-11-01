@@ -30,8 +30,8 @@ function mercadin(){
         soma+=parseFloat(val.valor)
         ListaProdutos.innerHTML+=`
         <div id="produto">
-            <h4>${NomeDoProduto}</h4>
-            <p>R$${ValorDoProduto}</p>
+            <h4>${val.nome}</h4>
+            <p>R$${val.valor}</p>
         </div>
     `
         Total.innerHTML=`
